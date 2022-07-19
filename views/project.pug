@@ -1,0 +1,53 @@
+doctype html
+html(lang='en', dir='ltr')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='../public/css/normalize.css')
+    link(rel='stylesheet', href='../public/css/styles.css')
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='https://placehold.it/550x350', alt='Profile Pic')
+        .dev-intro-box
+          h5 Josh Sullivan
+          p
+            | Lorem ipsum dolor amet in ad trust fund dolore pickled. Godard taiyaki bitters chartreuse artisan sriracha. Synth minim flannel godard small batch, woke craft beer af kogi sriracha. Cornhole portland esse YOLO fixie.
+          a(href='about.html') Learn More &rarr;
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button', data-toggle='my-info')
+          span Josh Sullivan
+      nav.nav
+        a(href='index.html')
+          span &larr;
+          |  Back
+      article.portfolio-projects
+        .inner-wrapper.flex-row-wrap.two-col
+          .project-info-box.box
+            h1 Project Name
+            p
+              | Lorem ipsum dolor amet. Tumblr health goth culpa forage prism kinfolk. Excepteur church-key kogi thundercats, id tilde unicorn live-edge. Before they sold out et quinoa cornhole nostrud, tbh green juice letterpress try-hard excepteur iPhone raw denim four loko hot chicken 3 wolf moon
+          .project-tech-links-box.box
+            h6 Technologies
+            ul
+              li HTML
+              li CSS
+              li JavaScript
+            a.btn-link(href='') Live Demo
+            a.btn-link(href='') GitHub Repo
+        .project-img-box.box
+          img.project-img(src='https://placehold.it/1200x550', alt='Screen capture of project')
+          img.project-img(src='https://placehold.it/1200x550', alt='Screen capture of project')
+          img.project-img(src='https://placehold.it/1200x550', alt='Screen capture of project')
+        nav.nav
+          a(href='index.html')
+            span &larr;
+            |  Back
+    script(src='../public/js/script.js')

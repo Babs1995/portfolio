@@ -1,0 +1,48 @@
+{"projects":[	
+	{
+	"id": 0,
+	"project_name": "Random Quote Generator",
+	"description": "A random quote is selected and displayed on the screen using JavaScript",
+	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+	"live_link": " ",
+	"github_link": "https://github.com/Babs1995/Project-1.git",
+	"image_urls":[" ", " "]
+	},
+	{
+	"id": 1,
+	"project_name": "Data Pagination and Filtering",
+	"description": "An array of 42 student is broken into several pages. The page shows 12 students at a time.",
+	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+	"live_link": " ",
+	"github_link": "https://github.com/Babs1995/Project-2",
+	"image_urls":[" "]
+	},
+	{
+	"id": 2,
+	"project_name": "Interactive Form",
+	"description": "The required elements must be filled in properly to submit this form, .",
+	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+	"live_link": " ",
+	"github_link": "https://github.com/Babs1995/Interactive-Form.git",
+	"image_urls":[" ", " "]
+	},
+	{
+	"id": 3,
+	"project_name": "Phrase Hunter",
+	"description": "A hidden phrase is provided and the player is tasked with guessing the correct letters. The player has 5 opportunities to guess correctly before the game is over.",
+	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
+	"live_link": "https://babs1995.github.io/OOP-Game-Show-App/",
+	"github_link": "https://github.com/Babs1995/OOP-Game-Show-App.git",
+	"image_urls":[" ", " "]
+	},
+	{
+	"id": 4,
+	"project_name": "Employee Directory App",
+	"description": "This app pulls 12 random users. A card was created for each with their personal information.",
+	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code", "AJAX", "Git"],
+	"live_link": "https://babs1995.github.io/Public-API-Requests/",
+	"github_link": "https://github.com/Babs1995/Public-API-Requests.git",
+	"image_urls":[" ", " "]
+	}
+	
+	] }

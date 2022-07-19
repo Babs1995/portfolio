@@ -1,0 +1,58 @@
+doctype html
+html(lang='en', dir='ltr')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='../public/css/normalize.css')
+    link(rel='stylesheet', href='../public/css/styles.css')
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='https://placehold.it/550x350', alt='Profile Pic')
+        .dev-intro-box
+          h5 Josh Sullivan
+          p
+            | Lorem ipsum dolor amet in ad trust fund dolore pickled. Godard taiyaki bitters chartreuse artisan sriracha. Synth minim flannel godard small batch, woke craft beer af kogi sriracha. Cornhole portland esse YOLO fixie.
+          a(href='about.html') Learn More &rarr;
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button', data-toggle='my-info')
+          span Josh Sullivan
+      nav.nav
+        a(href='index.html')
+          span &larr;
+          |  Back
+      article.portfolio-about
+        .inner-wrapper.flex-row-wrap.two-col
+          .about-intro-box.box
+            h1 Josh Sullivan
+            p Full Stack JavaScript Developer
+            p
+              | Enamel pin shaman polaroid bitters. Venmo narwhal ut tattooed voluptate next level cred heirloom aute reprehenderit small batch jianbing whatever wayfarers 8-bit. Qui ennui nostrud ut listicle bespoke raclette commodo keffiyeh lomo labore. Fashion axe fixie aute, occaecat aesthetic twee cray anim la croix keytar mustache raclette vinyl.
+            .about-bio
+              p
+                | Cold-pressed disrupt offal hella unicorn, typewriter ut VHS polaroid tumeric lo-fi photo booth vinyl aliquip raclette. Everyday carry keytar edison bulb gluten-free, laborum pabst bitters selvage cardigan. Excepteur tilde pop-up YOLO leggings stumptown knausgaard VHS distillery chambray forage. Viral food truck hexagon vinyl, consectetur gentrify marfa VHS subway tile consequat before they sold out veniam shabby chic meditation knausgaard.
+          .skills-contact-box.box
+            h6 Skills
+            ul
+              li HTML
+              li CSS
+              li JavaScript
+            h6 Contact Info
+            ul
+              li 555-555-1234
+              li email@email.com
+            a.btn-link(href='') LinkedIn
+            a.btn-link(href='') GitHub
+            a.btn-link(href='') Twitter
+        nav.nav
+          a(href='index.html')
+            span &larr;
+            |  Back
+    script(src='../public/js/script.js')
