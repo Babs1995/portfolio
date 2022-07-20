@@ -1,48 +1,96 @@
-{"projects":[	
-	{
-	"id": 0,
-	"project_name": "Random Quote Generator",
-	"description": "A random quote is selected and displayed on the screen using JavaScript",
-	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-	"live_link": "https://babs1995.github.io/Random-Quote-1/",
-	"github_link": "https://github.com/Babs1995/Project-1.git",
-	"image_urls":["/static/images/p1_1.png", "/static/images/p1_2.png", "/static/images/p1_3.png"]
-	},
-	{
-	"id": 1,
-	"project_name": "Data Pagination and Filtering",
-	"description": "An array of 42 student is broken into several pages. The page shows 12 students at a time.",
-	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-	"live_link": "https://babs1995.github.io/Data-Pagination-2/",
-	"github_link": "https://github.com/Babs1995/Data-Pagination-2.git",
-	"image_urls":["/static/images/p2_1.png", "/static/images/p2_2.png", "/static/images/p2_3.png"]
-	},
-	{
-	"id": 2,
-	"project_name": "Interactive Form",
-	"description": "The required elements must be filled in properly to submit this form.",
-	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-	"live_link": "https://babs1995.github.io/contactSystems/",
-	"github_link": "https://github.com/Babs1995/contactSystems.git",
-	"image_urls":["/static/images/p3_1.png", "/static/images/p3_2.png", "/static/images/p3_3.png"]
-	},
-	{
-	"id": 3,
-	"project_name": "Phrase Hunter",
-	"description": "A hidden phrase is provided and the player is tasked with guessing the correct letters. The player has 5 opportunities to guess correctly before the game is over.",
-	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
-	"live_link": "https://babs1995.github.io/phraseHunter/",
-	"github_link": "https://github.com/Babs1995/phraseHunter.git",
-	"image_urls":["/static/images/p4_1.png", "/static/images/p4_2.png", "/static/images/p4_3.png"]
-	},
-	{
-	"id": 4,
-	"project_name": "Employee Directory App",
-	"description": "This app pulls 12 random users. A card was created for each with their personal information.",
-	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code", "AJAX", "Git"],
-	"live_link": "https://babs1995.github.io/contactSystems/",
-	"github_link": "https://github.com/Babs1995/contactSystems.git",
-	"image_urls":["/static/images/p5_1.png", "/static/images/p5_2.png", "/static/images/p5_3.png"]
-	}
-	
-	] }
+{
+    "projects": [
+        {
+            "description": "A random quote is selected and displayed on the screen using JavaScript",
+            "github_link": "https://github.com/Babs1995/Project-1.git",
+            "id": 0,
+            "image_urls": [
+                "/static/images/p1_1.png",
+                "/static/images/p1_2.png",
+                "/static/images/p1_3.png"
+            ],
+            "live_link": "https://babs1995.github.io/Random-Quote-1/",
+            "project_name": "Random Quote Generator",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Visual Studio Code"
+            ]
+        },
+        {
+            "description": "An array of 42 student is broken into several pages. The page shows 12 students at a time.",
+            "github_link": "https://github.com/Babs1995/Data-Pagination-2.git",
+            "id": 1,
+            "image_urls": [
+                "/static/images/p2_1.png",
+                "/static/images/p2_2.png",
+                "/static/images/p2_3.png"
+            ],
+            "live_link": "https://babs1995.github.io/Data-Pagination-2/",
+            "project_name": "Data Pagination and Filtering",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Visual Studio Code"
+            ]
+        },
+        {
+            "description": "The required elements must be filled in properly to submit this form.",
+            "github_link": "https://github.com/Babs1995/contactSystems.git",
+            "id": 2,
+            "image_urls": [
+                "/static/images/p3_1.png",
+                "/static/images/p3_2.png",
+                "/static/images/p3_3.png"
+            ],
+            "live_link": "https://babs1995.github.io/contactSystems/",
+            "project_name": "Interactive Form",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Visual Studio Code"
+            ]
+        },
+        {
+            "description": "A hidden phrase is provided and the player is tasked with guessing the correct letters. The player has 5 opportunities to guess correctly before the game is over.",
+            "github_link": "https://github.com/Babs1995/phraseHunter.git",
+            "id": 3,
+            "image_urls": [
+                "/static/images/p4_1.png",
+                "/static/images/p4_2.png",
+                "/static/images/p4_3.png"
+            ],
+            "live_link": "https://babs1995.github.io/phraseHunter/",
+            "project_name": "Phrase Hunter",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Visual Studio Code"
+            ]
+        },
+        {
+            "description": "This app pulls 12 random users. A card was created for each with their personal information.",
+            "github_link": "https://github.com/Babs1995/contactSystems.git",
+            "id": 4,
+            "image_urls": [
+                "/static/images/p5_1.png",
+                "/static/images/p5_2.png",
+                "/static/images/p5_3.png"
+            ],
+            "live_link": "https://babs1995.github.io/contactSystems/",
+            "project_name": "Employee Directory App",
+            "technologies": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Visual Studio Code",
+                "AJAX",
+                "Git"
+            ]
+        }
+    ]
+}
