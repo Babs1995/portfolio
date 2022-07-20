@@ -7,13 +7,13 @@ block content
   article.portfolio-intro
 
     h1 GitHub Repositions
-    p Hey friends! Here' you'll find the projects I've worked on during my Threehouse Techdegree journey. 
+    p Hi there! Here you'll find the projects I've worked on during my Threehouse Techdegree journey. 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
       each project in projects 
         .cell
         
-          a(href=`/projects/${project.id}`)
+          a(href=`/data/${project.id}`)
             img.thumbnail(src=`${project.image_urls[1]}`, alt='Snapshot of project')
             h5 #{project.project_name}

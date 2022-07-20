@@ -137,7 +137,7 @@
     height: 100%;
     min-height: 100%;
     padding: 20px;
-    background: #000;
+    background: rgb(220, 199, 219);
   }
   
   .sidebar-info-box {
@@ -184,8 +184,8 @@
     color: #fefefe;
     height: 40px;
     padding: 0.5rem;
-    background: #0a0a0a;
-    border-left: 1px solid #0a0a0a;
+    background: rgb(220, 199, 219);
+    border-left: 1px solid rgb(220, 199, 219);
   }
   
   .header span {
@@ -201,7 +201,7 @@
     width: 20px;
     height: 16px;
     border: none;
-    background: #0a0a0a;
+    background: rgb(220, 199, 219);
     margin-top: 3px;
     margin-right: 10px;
     border-top: 2px solid #fefefe;
