@@ -1,53 +1,19 @@
-doctype html
-html(lang='en', dir='ltr')
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='x-ua-compatible', content='ie=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='../public/css/normalize.css')
-    link(rel='stylesheet', href='../public/css/styles.css')
-  body
-    #my-info.sidebar
-      .sidebar-info-box
-        br
-        .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='Profile Pic')
-        .dev-intro-box
-          h5 Josh Sullivan
-          p
-            | Lorem ipsum dolor amet in ad trust fund dolore pickled. Godard taiyaki bitters chartreuse artisan sriracha. Synth minim flannel godard small batch, woke craft beer af kogi sriracha. Cornhole portland esse YOLO fixie.
-          a(href='about.html') Learn More &rarr;
-    .wrapper
-      .header
-        .header-info-box
-          button#menu-icon.menu-icon(type='button', data-toggle='my-info')
-          span Josh Sullivan
-      article.portfolio-intro
-        h1 Hello World!
-        p
-          | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla.
-      article.portfolio-project-thumbs
-        .projects-box.box.grid
-          .cell
-            a(href='project.html')
-              img.thumbnail(src='https://placehold.it/550x550', alt='Thumbnail of project')
-              h5 My Site
-          .cell
-            a(href='project.html')
-              img.thumbnail(src='https://placehold.it/550x550', alt='Thumbnail of project')
-              h5 My Site
-          .cell
-            a(href='project.html')
-              img.thumbnail(src='https://placehold.it/550x550', alt='Thumbnail of project')
-              h5 My Site
-          .cell
-            a(href='project.html')
-              img.thumbnail(src='https://placehold.it/550x550', alt='Thumbnail of project')
-              h5 My Site
-          .cell
-            a(href='project.html')
-              img.thumbnail(src='https://placehold.it/550x550', alt='Thumbnail of project')
-              h5 My Site
-    script(src='../public/js/script.js')
+
+
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 GitHub Repositions
+    p Hey friends! Here' you'll find the projects I've worked on during my Threehouse Techdegree journey. 
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects 
+        .cell
+        
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[1]}`, alt='Snapshot of project')
+            h5 #{project.project_name}
