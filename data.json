@@ -6,7 +6,7 @@
 	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 	"live_link": "https://babs1995.github.io/Random-Quote-1/",
 	"github_link": "https://github.com/Babs1995/Project-1.git",
-	"image_urls":[" " , " "]
+	"image_urls":["/static/images/p1_1.png", "/static/images/p1_2.png", "/static/images/p1_3.png"]
 	},
 	{
 	"id": 1,
@@ -15,7 +15,7 @@
 	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 	"live_link": "https://babs1995.github.io/Data-Pagination-2/",
 	"github_link": "https://github.com/Babs1995/Data-Pagination-2.git",
-	"image_urls":[" "]
+	"image_urls":["/static/images/p2_1.png", "/static/images/p2_2.png", "/static/images/p2_3.png"]
 	},
 	{
 	"id": 2,
@@ -24,7 +24,7 @@
 	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 	"live_link": "https://babs1995.github.io/contactSystems/",
 	"github_link": "https://github.com/Babs1995/contactSystems.git",
-	"image_urls":[" ", " "]
+	"image_urls":["/static/images/p3_1.png", "/static/images/p3_2.png", "/static/images/p3_3.png"]
 	},
 	{
 	"id": 3,
@@ -33,7 +33,7 @@
 	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code"],
 	"live_link": "https://babs1995.github.io/phraseHunter/",
 	"github_link": "https://github.com/Babs1995/phraseHunter.git",
-	"image_urls":[" ", " "]
+	"image_urls":["/static/images/p4_1.png", "/static/images/p4_2.png", "/static/images/p4_3.png"]
 	},
 	{
 	"id": 4,
@@ -42,7 +42,7 @@
 	"technologies": ["JavaScript", "HTML", "CSS", "Visual Studio Code", "AJAX", "Git"],
 	"live_link": "https://babs1995.github.io/contactSystems/",
 	"github_link": "https://github.com/Babs1995/contactSystems.git",
-	"image_urls":[" ", " "]
+	"image_urls":["/static/images/p5_1.png", "/static/images/p5_2.png", "/static/images/p5_3.png"]
 	}
 	
 	] }
