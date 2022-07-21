@@ -1,5 +1,3 @@
-
-
 extends layout.pug
 
 block content
@@ -14,6 +12,6 @@ block content
       each project in projects 
         .cell
         
-          a(href=`/projects/${project.id}`)
+          a(href=`/project/id ${project.id}`)
             img.thumbnail(src=`${project.image_urls[2]}`, alt='Snapshot of project')
             h5 #{project.project_name}
