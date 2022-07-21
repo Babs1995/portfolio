@@ -5,9 +5,9 @@
             "github_link": "https://github.com/Babs1995/Project-1.git",
             "id": 0,
             "image_urls": [
-                "/public/img/p1_1.png",
-                "/static/img/p1_2.png",
-                "/static/img/p1_3.png"
+                "img/p1_1.png",
+                "img/p1_2.png",
+                "img/p1_3.png"
             ],
             "live_link": "https://babs1995.github.io/Random-Quote-1/",
             "project_name": "Random Quote Generator",
@@ -23,9 +23,9 @@
             "github_link": "https://github.com/Babs1995/Data-Pagination-2.git",
             "id": 1,
             "image_urls": [
-                "/static/img/p2_1.png",
-                "/static/img/p2_2.png",
-                "/static/img/p2_3.png"
+                "img/p2_1.png",
+                "img/p2_2.png",
+                "img/p2_3.png"
             ],
             "live_link": "https://babs1995.github.io/Data-Pagination-2/",
             "project_name": "Data Pagination and Filtering",
@@ -41,9 +41,9 @@
             "github_link": "https://github.com/Babs1995/contactSystems.git",
             "id": 2,
             "image_urls": [
-                "/static/img/p3_1.png",
-                "/static/img/p3_2.png",
-                "/static/img/p3_3.png"
+                "img/p3_1.png",
+                "img/p3_2.png",
+                "img/p3_3.png"
             ],
             "live_link": "https://babs1995.github.io/contactSystems/",
             "project_name": "Interactive Form",
@@ -59,9 +59,9 @@
             "github_link": "https://github.com/Babs1995/phraseHunter.git",
             "id": 3,
             "image_urls": [
-                "/static/img/p4_1.png",
-                "/static/img/p4_2.png",
-                "/static/img/p4_3.png"
+                "img/p4_1.png",
+                "img/p4_2.png",
+                "img/p4_3.png"
             ],
             "live_link": "https://babs1995.github.io/phraseHunter/",
             "project_name": "Phrase Hunter",
@@ -77,9 +77,9 @@
             "github_link": "https://github.com/Babs1995/contactSystems.git",
             "id": 4,
             "image_urls": [
-                "/static/img/p5_1.png",
-                "/static/img/p5_2.png",
-                "/static/img/p5_3.png"
+                "img/p5_1.png",
+                "img/p5_2.png",
+                "img/p5_3.png"
             ],
             "live_link": "https://babs1995.github.io/contactSystems/",
             "project_name": "Employee Directory App",
