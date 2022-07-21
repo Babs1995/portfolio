@@ -6,7 +6,7 @@ const {projects} = require('./data/data.json');
  * GET home page
  */
 router.get( '/', ( req, res, next) => {
-  res.render('index', {project})
+  res.render('index', {projects})
 });
 
 
