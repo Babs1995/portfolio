@@ -13,7 +13,6 @@ block content
     .projects-box.box.grid
       each project in projects 
         .cell
-        
-          a(href=`/data.json/id ${project.id}`)
-            img.thumbnail(src=`${project.image_urls[2]}`, alt='Snapshot of project')
-            h5 #{project.project_name}
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.thumbnails[2]}`, alt='Snapshot of project')
+            h5= project.title

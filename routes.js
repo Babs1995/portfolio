@@ -18,7 +18,7 @@ res.render('about')
 })
 
 //Get individual project page
-router.get('./project/id', (req, res, next)=>{
+router.get('/projects/:id', (req, res, next)=>{
   const projectId = req.params.id
   const project = projects.find(({id}) => id === +projectId);
 

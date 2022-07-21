@@ -6,7 +6,6 @@ block content
     a(href='/')
       span &larr;
       |  Back
-
   article.portfolio-projects
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
@@ -19,8 +18,8 @@ block content
           each technology in project.technologies
             li= technology
 
-        a.btn-link(href=project.link, target="_blank") Live Demo
-        a.btn-link(href=project.repo, target="_blank") GitHub Repo
+        a.btn-link(href=project.live_link, target="_blank") Live Demo
+        a.btn-link(href=project.github_link, target="_blank") GitHub Repo
 
     .project-img-box.box
 
