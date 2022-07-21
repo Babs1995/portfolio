@@ -14,7 +14,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug')
 
 //Static middleware
-app.use(express.static('public'))
+app.use(express.public('public'))
 
 // 404 error handler
 app.use((req, res, next) => {
