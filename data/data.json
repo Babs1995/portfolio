@@ -3,11 +3,11 @@
         {
             "id": 0,
             "description": "A random quote is selected and displayed on the screen using JavaScript",
-            "github_link": "https://github.com/Babs1995/Project-1.git",
+            "github_link": "https://github.com/Babs1995/Random-Quote-1.git",
             "thumbnails": [
-                "img/p1_1.png",
-                "img/p1_2.png",
-                "img/p1_3.png"
+                "/img/p1_1.png",
+                "/img/p1_2.png",
+                "/img/p1_3.png"
             ],
             "live_link": "https://babs1995.github.io/Random-Quote-1/",
             "title": "Random Quote Generator",
@@ -23,9 +23,9 @@
             "description": "An array of 42 student is broken into several pages. The page shows 12 students at a time.",
             "github_link": "https://github.com/Babs1995/Data-Pagination-2.git",
             "thumbnails": [
-                "img/p2_1.png",
-                "img/p2_2.png",
-                "img/p2_3.png"
+                "/img/p2_1.png",
+                "/img/p2_2.png",
+                "/img/p2_3.png"
             ],
             "live_link": "https://babs1995.github.io/Data-Pagination-2/",
             "title": "Data Pagination and Filtering",
@@ -41,9 +41,9 @@
             "description": "The required elements must be filled in properly to submit this form.",
             "github_link": "https://github.com/Babs1995/contactSystems.git",
             "thumbnails": [
-                "img/p3_1.png",
-                "img/p3_2.png",
-                "img/p3_3.png"
+                "/img/p3_1.png",
+                "/img/p3_2.png",
+                "/img/p3_3.png"
             ],
             "live_link": "https://babs1995.github.io/contactSystems/",
             "title": "Interactive Form",
@@ -59,9 +59,9 @@
             "description": "A hidden phrase is provided and the player is tasked with guessing the correct letters. The player has 5 opportunities to guess correctly before the game is over.",
             "github_link": "https://github.com/Babs1995/phraseHunter.git",
             "thumbnails": [
-                "img/p4_1.png",
-                "img/p4_2.png",
-                "img/p4_3.png"
+                "/img/p4_1.png",
+                "/img/p4_2.png",
+                "/img/p4_3.png"
             ],
             "live_link": "https://babs1995.github.io/phraseHunter/",
             "title": "Phrase Hunter",
@@ -77,9 +77,9 @@
             "description": "This app pulls 12 random users. A card was created for each with their personal information.",
             "github_link": "https://github.com/Babs1995/contactSystems.git",
             "thumbnails": [
-                "img/p5_1.png",
-                "img/p5_2.png",
-                "img/p5_3.png"
+                "/img/p5_1.png",
+                "/img/p5_2.png",
+                "/img/p5_3.png"
             ],
             "live_link": "https://babs1995.github.io/contactSystems/",
             "title": "Employee Directory App",

@@ -23,8 +23,9 @@ block content
 
     .project-img-box.box
 
-      each thumbnail, i in project.thumbnails
-        img.project-img(src=`${thumbnail}`, alt=`${project.title}`)
+     each thumbnail, i in project.thumbnails
+        img.thumbnail(src=`${project.thumbnails}`, alt='Snapshot of project')
+
       
     nav.nav
       a(href='/')
