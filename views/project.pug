@@ -9,7 +9,7 @@ block content
   article.portfolio-projects
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
-        h1= `${project.title}`
+        h1= `${project.project_name}`
         p= `${project.description}`
 
       .project-tech-links-box.box
@@ -23,8 +23,8 @@ block content
 
     .project-img-box.box
 
-     each thumbnail, i in project.thumbnails
-        img.thumbnail(src=`${project.thumbnails}`, alt='Snapshot of project')
+     each image in project.image_urls
+        img.project-img(src=`${image}`, alt='Snapshot of project')
 
       
     nav.nav
