@@ -39,13 +39,13 @@
         {
             "id": 2,
             "description": "The required elements must be filled in properly to submit this form.",
-            "github_link": "https://github.com/Babs1995/contactSystems.git",
+            "github_link": "https://github.com/Babs1995/registrationForm",
             "image_urls": [
                 "/img/p3_1.png",
                 "/img/p3_2.png",
                 "/img/p3_3.png"
             ],
-            "live_link": "https://babs1995.github.io/contactSystems/",
+            "live_link": "https://babs1995.github.io/registrationForm/",
             "project_name": "Interactive Form",
             "technologies": [
                 "JavaScript",
